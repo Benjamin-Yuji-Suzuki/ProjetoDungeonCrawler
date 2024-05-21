@@ -4,8 +4,8 @@
 
 ### É um Dungeon Crawler 🎮🎮🎮
 > Dungeon Crawler é um tipo de jogo onde você explora masmorras, luta contra monstros e coleta tesouros. O objetivo é avançar o máximo possível enquanto enfrenta desafios.
-<br>
-## Historinha 📖📖📖
+
+# Historinha 📖📖📖
 Você caiu em uma Dungeon, mas não é qualquer Dungeon, É uma Dungeon mágica que muda de acordo com suas ações. 
 Seu objetivo é encontrar uma saída.
 > Pegar chave e abrir porta. 

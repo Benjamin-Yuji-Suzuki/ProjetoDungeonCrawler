@@ -40,7 +40,8 @@ int main(int argc, char *argv[]) {
 	
 	int Escolha;
 	int i;
-
+	int fim=0;
+	
     printf("BEM VINDO AO DUNGEON CRAWLER!\n");
     system("pause");
     system("cls");
@@ -127,6 +128,10 @@ int main(int argc, char *argv[]) {
 	
 	while(1){
 		input = getch();
+		if(fim==1){
+			system("cls");
+			break;
+		}
 		if(vid==0){
 			system("cls");
 			break;
@@ -653,7 +658,10 @@ int main(int argc, char *argv[]) {
 			}
 
 		}
-		
+		if (fim==1){
+			system("cls");
+			break;
+		}
 		
 		if (vid==0){
 			system("cls");
@@ -1132,9 +1140,10 @@ int main(int argc, char *argv[]) {
 		
 		if (mapa3 [39][1] == '&'){
 			system("cls");
-			printf("Parabens voce ganhou sua liberdade de volta\nAgora evite de cair em labirintos\n");
+			fim = 1;
+			printf("Parabens voce ganhou sua liberdade de volta\nAgora evite de cair em labirintos\nAgora feche o jogo para nao voltar no menu e nao aperte nenhuma tecla\n");
 			system("pause");
-			return 0;
+			break;
 			}
 		
 		
